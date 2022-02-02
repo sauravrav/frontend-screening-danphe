@@ -21,7 +21,7 @@ const Problem2 = () => {
       <GridBox>
         {colors.map((data) => (
           <div>
-            <div style={{ backgroundColor: data }}></div>
+            <div style={{ backgroundColor: data }} key={data}></div>
           </div>
         ))}
       </GridBox>

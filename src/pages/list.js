@@ -10,7 +10,7 @@ function List() {
       <Dapp>
         <div>
           {problemdata.map((data) => (
-            <ProblemBox num={data} />
+            <ProblemBox num={data} key={data} />
           ))}
         </div>
       </Dapp>
